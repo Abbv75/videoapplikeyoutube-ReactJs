@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import { Box, Stack, Typography } from '@mui/material'
-import {Sidebar, Videos} from './'
+import { Sidebar, Videos } from './'
 import { fetchFromAPI } from '../utils/fetchFromAPI'
 
 const Feed = () => {
 
-  const [selectedCategory, setSelectedCategory] = useState('New');
+  const [selectedCategory, setSelectedCategory] = useState('Recommendation');
   const [videos, setVideos] = useState([])
 
-  useEffect(()=>{
+  useEffect(() => {
     fetchFromAPI(`search?parth=snippet&q=${selectedCategory}`).then(
-      (data)=>{
+      (data) => {
         setVideos(data.items)
       }
     )
@@ -22,14 +22,14 @@ const Feed = () => {
         display: "flex",
         flexDirection: "row",
         alignItems: 'unset',
-        height: '87vh'
+        height: 'calc(100% - 140px)',
       }}
     >
       <Box
         sx={{
           height: {
             sx: "auto",
-            md: "100%"
+            // md: "100%"
           },
           borderRight: "1px solid #3d3d3d",
           width: {
@@ -41,9 +41,9 @@ const Feed = () => {
           }
         }}
       >
-        <Sidebar 
-          selectedCategory = {selectedCategory}
-          setSelectedCategory = {setSelectedCategory}
+        <Sidebar
+          selectedCategory={selectedCategory}
+          setSelectedCategory={setSelectedCategory}
         />
 
         <Typography
@@ -78,13 +78,12 @@ const Feed = () => {
           }}
 
         >
-          {selectedCategory} <span
+          Videos de <span
             style={{
               color: '#F31503'
             }}
-
           >
-            Videos
+             {selectedCategory}
           </span>
         </Typography>
 

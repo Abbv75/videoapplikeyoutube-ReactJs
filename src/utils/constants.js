@@ -11,27 +11,41 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import logoTmp from '../images/logoMomty.png'
+import TabletMacIcon from '@mui/icons-material/TabletMac';
+import AppleIcon from '@mui/icons-material/Apple';
+import AndroidIcon from '@mui/icons-material/Android';
+import AutoGraphIcon from '@mui/icons-material/AutoGraph';
+import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
+import AddReactionIcon from '@mui/icons-material/AddReaction';
+import FlightIcon from '@mui/icons-material/Flight';
+import FlashOnIcon from '@mui/icons-material/FlashOn';
+import FlakyIcon from '@mui/icons-material/Flaky';
+import FaceIcon from '@mui/icons-material/Face';
 
-export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
+export const logo = logoTmp;
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
-  { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
-  { name: 'Music', icon: <MusicNoteIcon /> },
-  { name: 'Education', icon: <SchoolIcon />, },
-  { name: 'Podcast', icon: <GraphicEqIcon />, },
-  { name: 'Movie', icon: <OndemandVideoIcon />, },
-  { name: 'Gaming', icon: <SportsEsportsIcon />, },
-  { name: 'Live', icon: <LiveTvIcon />, },
+  { name: 'Recommendation', icon: <HomeIcon />, },
+  { name: 'brandon le proktor', icon: <FaceIcon/>, },
+  { name: 'IOS 17', icon: <AppleIcon/>, },
+  { name: 'Android 13', icon: <AndroidIcon />, },
+  { name: 'Neymar drible', icon: <SportsSoccerIcon />, },
+  { name: 'S23 VS Iphone 14', icon: <FlakyIcon />, },
+  { name: 'Call of Duty', icon: <SportsEsportsIcon />, },
+  { name: 'Apple WWDC 2023', icon: <CodeIcon />, },
+  { name: 'Drake', icon: <MusicNoteIcon /> },
+  { name: 'Damso', icon: <SchoolIcon />, },
+  { name: 'informatique', icon: <SchoolIcon />, },
+  { name: 'Mali actu', icon: <OndemandVideoIcon />, },
+  { name: 'Dubai vlog', icon: <FlightIcon />, },
+  { name: 'Jojol', icon: <LiveTvIcon />, },
+  { name: 'Relaxation', icon: <AddReactionIcon />, },
+  { name: 'Tour de magie', icon: <AutoGraphIcon />, },
+  { name: 'Tuto maquillage', icon: <FaceRetouchingNaturalIcon />, },
+  { name: 'Comedie', icon: <TheaterComedyIcon />, },
   { name: 'Sport', icon: <FitnessCenterIcon />, },
-  { name: 'Fashion', icon: <CheckroomIcon />, },
-  { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
-  { name: 'Comedy', icon: <TheaterComedyIcon />, },
-  { name: 'Gym', icon: <FitnessCenterIcon />, },
-  { name: 'Crypto', icon: <DeveloperModeIcon />, },
+  
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
