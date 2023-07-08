@@ -6,20 +6,15 @@ import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
 import SchoolIcon from '@mui/icons-material/School';
 import FaceRetouchingNaturalIcon from '@mui/icons-material/FaceRetouchingNatural';
-import CheckroomIcon from '@mui/icons-material/Checkroom';
-import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
-import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
-import logoTmp from '../images/logoMomty.png'
-import TabletMacIcon from '@mui/icons-material/TabletMac';
+import logoTmp from '../images/logoMomty.png';
 import AppleIcon from '@mui/icons-material/Apple';
 import AndroidIcon from '@mui/icons-material/Android';
 import AutoGraphIcon from '@mui/icons-material/AutoGraph';
 import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
 import AddReactionIcon from '@mui/icons-material/AddReaction';
 import FlightIcon from '@mui/icons-material/Flight';
-import FlashOnIcon from '@mui/icons-material/FlashOn';
 import FlakyIcon from '@mui/icons-material/Flaky';
 import FaceIcon from '@mui/icons-material/Face';
 
@@ -48,9 +43,9 @@ export const categories = [
   
 ];
 
-export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
-export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
-export const demoVideoUrl = '/video/GDa8kZLNhJ4';
-export const demoChannelTitle = 'JavaScript Mastery';
-export const demoVideoTitle = 'Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI';
-export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'
+export const demoThumbnailUrl = 'https://megazine.fr/wp-content/uploads/2023/02/samsungs23-52.jpg';
+export const demoChannelUrl = '/channel/UCGjKSSIpN7aYQluu04kPrsA';
+export const demoVideoUrl = '/video/d537srmB5tM';
+export const demoChannelTitle = 'Brandon le proktor';
+export const demoVideoTitle = 'TEST du Samsung Galaxy S23 Ultra : le MEILLEUR SMARTPHONE du marché, de loin !';
+export const demoProfilePicture = 'https://yt3.googleusercontent.com/oC0ac2cBGaBjHqvWJEEZ_KZXVsT7StrH7mWGHUwLGZMp6aPmWpmuwvkviIvXgm7140_i5btDdfU=s900-c-k-c0x00ffffff-no-rj'
