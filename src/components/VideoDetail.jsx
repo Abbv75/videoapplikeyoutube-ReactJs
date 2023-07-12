@@ -10,7 +10,7 @@ const VideoDetail = () => {
   const { id } = useParams();
 
   const [videoDetail, setVideoDetail] = useState(null)
-  const [videos, setVideos] = useState([null])
+  const [videos, setVideos] = useState(null)
 
   useEffect(() => {
     fetchFromAPI(`videos?part=snippet,statistics&id=${id}`).then(
@@ -38,6 +38,7 @@ const VideoDetail = () => {
       sx={{
         height: 'calc(100% - 140px)',
         overflowY: 'auto',
+        width  : '60vw'
       }}
     >
       <Stack
@@ -136,7 +137,17 @@ const VideoDetail = () => {
             overflowY:'scroll'
           }}
         >
-          <Videos videos={videos} direction='column' />
+          {
+            videos != null ? 
+            <Videos videos={videos} direction='column' /> :
+            <Typography
+              variant='h2'
+              color='#fff'
+            >
+              En cour de chargement
+            </Typography>
+          }
+          
         </Box>
       </Stack>
 
