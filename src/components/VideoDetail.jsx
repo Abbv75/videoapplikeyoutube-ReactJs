@@ -38,24 +38,28 @@ const VideoDetail = () => {
       sx={{
         height: 'calc(100% - 140px)',
         overflowY: 'auto',
-        width  : '60vw'
       }}
     >
       <Stack
         direction={{
           xs: "column",
-          md: 'row'
+          md: 'row',
+
         }}
         sx={{
           height: '100%',
-          padding:'20px'
+          width: '100%',
+          display:'flex',
+          justifyContent:'center',
+
+
         }}
       >
         <Box
           sx={{
-            width: 'auto',
             position: 'sticky',
             top: '140px',
+            width:'70%'
           }}
         >
           <ReactPlayer
@@ -133,21 +137,21 @@ const VideoDetail = () => {
           justifyContent='center'
           alignItems='center'
           sx={{
-            height:'100%',
-            overflowY:'scroll'
+            height: '100%',
+            overflowY: 'scroll'
           }}
         >
           {
-            videos != null ? 
-            <Videos videos={videos} direction='column' /> :
-            <Typography
-              variant='h2'
-              color='#fff'
-            >
-              En cour de chargement
-            </Typography>
+            videos != null ?
+              <Videos videos={videos} direction='column' /> :
+              <Typography
+                variant='h2'
+                color='#fff'
+              >
+                En cour de chargement
+              </Typography>
           }
-          
+
         </Box>
       </Stack>
 
