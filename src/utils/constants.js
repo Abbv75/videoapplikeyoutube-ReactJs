@@ -21,7 +21,7 @@ import FaceIcon from '@mui/icons-material/Face';
 export const logo = logoTmp;
 
 export const categories = [
-  { name: 'Recommendation', icon: <HomeIcon />, },
+  { name: 'Recommandation', icon: <HomeIcon />, },
   { name: 'brandon le proktor', icon: <FaceIcon/>, },
   { name: 'IOS 17', icon: <AppleIcon/>, },
   { name: 'Android 13', icon: <AndroidIcon />, },
